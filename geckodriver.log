@@ -1,0 +1,39 @@
+1668858551883	geckodriver	INFO	Listening on 127.0.0.1:40691
+1668858554989	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "53167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilez2Q7Ek"
+Gtk-Message: 14:49:18.701: Failed to load module "colorreload-gtk-module"
+Gtk-Message: 14:49:18.703: Failed to load module "window-decorations-gtk-module"
+Gtk-Message: 14:49:18.754: Failed to load module "appmenu-gtk-module"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668858562275	Marionette	INFO	Marionette enabled
+1668858562339	Marionette	INFO	Listening on port 45563
+Read port: 45563
+Read port: 45563
+WebDriver BiDi listening on ws://127.0.0.1:53167
+1668858565770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez2Q7Ek/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53167/devtools/browser/2e67d90e-f875-4222-b3cf-f4a6ffca7641
+1668858592975	Marionette	INFO	Stopped listening on port 45563
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668859905584	geckodriver	INFO	Listening on 127.0.0.1:38335
+1668859906174	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "39885" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAFDY9A"
+Gtk-Message: 15:11:48.167: Failed to load module "colorreload-gtk-module"
+Gtk-Message: 15:11:48.169: Failed to load module "window-decorations-gtk-module"
+Gtk-Message: 15:11:48.171: Failed to load module "appmenu-gtk-module"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1668859910005	Marionette	INFO	Marionette enabled
+1668859910023	Marionette	INFO	Listening on port 37575
+Read port: 37575
+WebDriver BiDi listening on ws://127.0.0.1:39885
+1668859910469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAFDY9A/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39885/devtools/browser/4c65dd53-1b56-4a91-b4af-d63fa627d5a6
+1668859925407	Marionette	INFO	Stopped listening on port 37575
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
