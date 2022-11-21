@@ -11,7 +11,7 @@ from webdriver_manager.core.utils import read_version_from_cmd, PATTERN
 
 import os 
 
-#driver istallation 
+#driver istallation if webdrivers are not saved on drive
 
 def driverinstaller(browser):
     '''takes the name of users browser as argument'''
@@ -19,9 +19,9 @@ def driverinstaller(browser):
     #chrome 
     if browser == "chrome"or "google-chrome":
         # check version 
-        version = read_version_from_cmd("/usr/bin/google-chrome --version", PATTERN["google-chrome"])
+        #version = read_version_from_cmd("/usr/bin/google-chrome --version", PATTERN["google-chrome"])
 
-        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(version= version).install()))
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     
     #chromium
 
@@ -50,8 +50,6 @@ def driverinstaller(browser):
 
 
 
-
-driverinstaller("chrome")
 
 
 
