@@ -20,13 +20,14 @@ def driverinstaller(browser):
     if browser == "chrome"or "google-chrome":
         # check version 
         #version = read_version_from_cmd("/usr/bin/google-chrome --version", PATTERN["google-chrome"])
-
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+        pass
     
     #chromium
 
     elif browser == "chromium":
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()))
+        pass
 
     elif browser == "brave":
         webdriver.Chrome(service=ChromeService(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install()))
@@ -34,15 +35,17 @@ def driverinstaller(browser):
     #firefox
     elif browser == "firefox" or "mozilla-firefox":
         driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+        pass
 
     #edge
     elif browser == "msedge"or "edge":
         driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
-        
+        pass
 
     #opera
     elif browser == "opera" or "opera-mini":
         driver = webdriver.Opera(executable_path=OperaDriverManager().install())
+        pass
         
 
     else :
